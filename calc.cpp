@@ -40,7 +40,7 @@ int main()
                       }
                       else
                       {
-                          cout<< "\nDivision of "<< a<< " and "<< b<< " is = "<< a/b<< "\n\nRemainder is = "<< a%b<< endl;
+                          cout<< "\nDivision of "<< a<< " and "<< b<< " is = "<< a/b<< endl;
                       }
                       break;
             case '%': if(b==0)
