@@ -25,6 +25,7 @@ class calculator{
                if(b==0)
                {
                    cout<< "\nYou can't divide "<< a<< " by 0!\n";
+                   cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
                    exit(0);
                }
                result = a/b;
@@ -34,6 +35,7 @@ class calculator{
                if(b==0)
                {
                    cout<< "\nYou can't divde "<< b<< " by 0!\n";
+                   cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
                    exit(0);
                }
                result = a%b;
@@ -89,7 +91,8 @@ int main()
                       c.remainder();
                       c.output();
                       break;
-            default:  cout<< "Exiting!\n";
+            default:  cout<< "Exiting!";
+                      cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
                       exit(0);
         }
     }
