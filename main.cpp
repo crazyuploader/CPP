@@ -659,7 +659,7 @@ int main()
    cout<< "21. for Program to Show all the Factors of an Entered Number\n";
    cout<< "22. for Program to Display Alphabet Triangle\n";
    cout<< "23. for Program to Displaying Entered Details using String\n";
-   cout<< "24. for Program to Do basic calculations\n";
+   cout<< "24. for Program to Do Basic Calculations\n";
    cout<< "Anything else to exit!\n";
    cout<< "\nchoice: ";
    cin>> choice;
