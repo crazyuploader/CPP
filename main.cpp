@@ -677,7 +677,6 @@ class calculator{
                cout<< "b: ";
                cin>> b;
            }
-
 };
 
 int calc_class()
