@@ -27,10 +27,7 @@ class calculator{
                    cout<< "\nYou can't divide "<< a<< " by 0!\n";
                    exit(0);
                }
-               else
-               {
-                   result = a/b;
-               }
+               result = a/b;
            }
            void remainder()
            {
@@ -39,10 +36,7 @@ class calculator{
                    cout<< "\nYou can't divde "<< b<< " by 0!\n";
                    exit(0);
                }
-               else
-               {
-                   result = a%b;
-               }
+               result = a%b;
            }
            void output()
            {
