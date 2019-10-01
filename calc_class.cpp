@@ -52,7 +52,6 @@ class calculator{
                cout<< "b: ";
                cin>> b;
            }
-
 };
 
 int main()
