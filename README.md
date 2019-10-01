@@ -78,3 +78,7 @@ Just a collection of my C++ Programs
 <b>calc.cpp</b>
 * A simple program to do basic mathematical operations.
 * Accepts Addition, Subtraction, Multiplication, Division.
+
+<b>calc_class.cpp</b>
+* A simple program using `class` and `object` to do basic mathematical operations.
+* Accepts Addition, Subtraction, Multiplication, Division.
