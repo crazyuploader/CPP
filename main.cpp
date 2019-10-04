@@ -10,6 +10,7 @@ int footer()
     cout<< TAB<< " =================================\n";
     cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
     cout<< TAB<< " =================================\n";
+    return 0;
 }
 
 int add_2()
