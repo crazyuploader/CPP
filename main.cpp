@@ -4,7 +4,7 @@ using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
 
-footer()
+int footer()
 {
     cout<< "\n";
     cout<< TAB<< " =================================\n";
