@@ -4,6 +4,14 @@ using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
 
+footer()
+{
+    cout<< "\n";
+    cout<< TAB<< " =================================\n";
+    cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
+    cout<< TAB<< " =================================\n";
+}
+
 int add_2()
 {
     int a,b;
@@ -24,11 +32,11 @@ int average()
     cout<< "Enter Number of Numbers you want to get Average of: ";
     cin>> n;
     for(i=1;i<=n;i++)
-        {
-            cout << i << " Number: ";
-            cin >> a[i];
-            avg = avg + a[i];
-        }
+    {
+        cout << i << " Number: ";
+        cin >> a[i];
+        avg = avg + a[i];
+    }
     cout<< "Average of "<< n<< " Number(s) is = "<< avg/n;
     return 0;
 }
@@ -71,13 +79,13 @@ int even_odd()
     cout<< "Enter number: ";
     cin>> a;
     if(a%2==0) //if-else condition to check whether or not entered number leaves 0 as its remainder
-        {
-            cout<< "\nEntered Number "<< a<< " is Even.\n";
-        }
+    {
+        cout<< "\nEntered Number "<< a<< " is Even.\n";
+    }
     else
-        {
-            cout<< "\nEntered Number "<< a<< " is Odd.\n";
-        }
+    {
+        cout<< "\nEntered Number "<< a<< " is Odd.\n";
+    }
     /*Alternative way to do the same work without if-else condition
     (a%2==0)?cout<< "\nEntered number "<< a<< " is even.\n":cout<< "\nEntered number "<< a<< " is odd.\n";
     */
@@ -121,27 +129,27 @@ int greater_3()
     cout<< "Enter Third Number: ";
     cin>> c;
     if(a>b)
+    {
+        if(a>c)
         {
-            if(a>c)
-                {
-                    cout << "Greatest Number is = " << a;
-                }
-            else
-                {
-                    cout << "Greatest Number is = " << c;
-                }
+            cout << "Greatest Number is = " << a;
         }
+        else
+        {
+            cout << "Greatest Number is = " << c;
+        }
+    }
     else
+    {
+        if(b>c)
         {
-            if(b>c)
-                {
-                    cout << "Greatest Number is = " << b;
-                }
-            else
-                {
-                    cout << "Greatest Number is = " << c;
-                }
+            cout << "Greatest Number is = " << b;
         }
+        else
+        {
+            cout << "Greatest Number is = " << c;
+        }
+    }
     return 0;
 }
 
@@ -169,19 +177,19 @@ int palindrome()
     cin>> a;
     pal=a;
     while(a>0)
-        {
-            c=a%10;
-            b=b*10+c;
-            a=a/10;
-        }
+    {
+        c=a%10;
+        b=b*10+c;
+        a=a/10;
+    }
     if(pal==b)
-        {
-            cout<< "Number is Palindrome";
-        }
+    {
+        cout<< "Number is Palindrome";
+    }
     else
-        {
-            cout<< "Number is not Palindrome";
-        }
+    {
+        cout<< "Number is not Palindrome";
+    }
     return 0;
 }
 
@@ -192,18 +200,18 @@ int prime()
     cout<< "Enter the Number: ";
     cin>> n;
     for(i=1;i<=n;i++)
-        {
-            if(n%i==0)
-            m++;
-        }
+    {
+        if(n%i==0)
+        m++;
+    }
     if(m==2)
-        {
-            cout<< "Number is Prime";
-        }
+    {
+        cout<< "Number is Prime";
+    }
     else
-        {
-            cout<< "Number is not Prime";
-        }
+    {
+        cout<< "Number is not Prime";
+    }
     return 0;
 }
 
@@ -227,9 +235,9 @@ int table()
     cout<< "Enter Number: ";
     cin>> a;
     for(i=1;i<=10;++i)
-        {
-          cout<< "\n"<< a<< " * "<< i<< " = "<< a*i;
-        }
+    {
+        cout<< "\n"<< a<< " * "<< i<< " = "<< a*i;
+    }
     return 0;
 }
 
@@ -335,9 +343,7 @@ int number_swap()
                      cout<< "After Swapping a is = "<< a<< " and b is = "<< b;
                      break;
             default: cout<< "Exiting...\n\n";
-                     cout<< TAB<< " =================================\n";
-                     cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-                     cout<< TAB<< " =================================\n";
+                     footer();
                      exit(0);
         }
     }
@@ -359,9 +365,9 @@ int convertDecimalToBinary()
     cout<< "Entered Decimal Number is = "<< deci_num<< endl;
     cout<< "Its Binary equivalent is = ";
     for(j=i-1;j>=0;j--)
-        {
-            cout<< r[j];
-        }
+    {
+        cout<< r[j];
+    }
     return 0;
 }
 
@@ -405,9 +411,7 @@ int number_conversion()
             case 2:  convertBinaryToDecimal();
                      break;
             default: cout<< "Exiting...\n\n";
-                     cout<< TAB<< " =================================\n";
-                     cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-                     cout<< TAB<< " =================================\n";
+                     footer();
                      exit(0);
         }
     }
@@ -454,9 +458,7 @@ int ascii()
                      cout<< endl;
                      break;
             default: cout<< "Exiting...\n\n";
-                     cout<< TAB<< " =================================\n";
-                     cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-                     cout<< TAB<< " =================================\n";
+                     footer();
                      exit(0);
         }
     }
@@ -516,46 +518,40 @@ int some_info()
     cout<< "\n\n1 for Landline and 2 for Mobile Phone: ";
     cin>> temp;
     if(temp==1)
+    {
+        cout<< "\nEnter your Landline Number with STD code: ";
+        cin>> phone;
+        if(phone.length()==11)
         {
-            cout<< "\nEnter your Landline Number with STD code: ";
-            cin>> phone;
-            if(phone.length()==11)
-                {
-                    cout<< "\nEntered Landline Number is OK"<< endl;
-                }
-            else
-                {
-                    cout<< "Check Number and Try Again!";
-                    cout<< TAB<< " =================================\n";
-                    cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-                    cout<< TAB<< " =================================\n";
-                    exit(0);
-                }
+            cout<< "\nEntered Landline Number is OK"<< endl;
         }
+        else
+        {
+            cout<< "Check Number and Try Again!";
+            footer();
+            exit(0);
+        }
+    }
     else
         if(temp==2)
+        {
+            cout<< "\nEnter your Mobile Phone Number: ";
+            cin>> phone;
+            if(phone.length()==10)
             {
-                cout<< "\nEnter your Mobile Phone Number: ";
-                cin>> phone;
-                if(phone.length()==10)
-                    {
-                        cout<< "\nEntered Mobile Phone Number is OK"<< endl;
-                    }
-                else
-                    {
-                        cout<< "Check Number and Try Again!";
-                        cout<< TAB<< " =================================\n";
-                        cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-                        cout<< TAB<< " =================================\n";
-                        exit(0);
-                    }
+                cout<< "\nEntered Mobile Phone Number is OK"<< endl;
             }
+            else
+            {
+                cout<< "Check Number and Try Again!";
+                footer();
+                exit(0);
+            }
+        }
         else
         {
             cout<< "\nUh-huh! You haven't pressed 1 or 2, have you?\n\nExiting!";
-            cout<< TAB<< " =================================\n";
-            cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-            cout<< TAB<< " =================================\n";
+            footer();
             exit(0);
         }
     cout<< "\nEnter your Address: ";
@@ -602,9 +598,7 @@ int calc()
             case '/': if(b==0)
                       {
                           cout << "\nYou can't divide "<< a<< " by 0!";
-                          cout<< TAB<< " =================================\n";
-                          cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-                          cout<< TAB<< " =================================\n";
+                          footer();
                           exit(0);
                       }
                       cout<< "\nDivision of "<< a<< " and "<< b<< " is = "<< a/b<< endl;
@@ -612,17 +606,13 @@ int calc()
             case '%': if(b==0)
                       {
                           cout<< "\nYou can't divide "<< a<< " by 0!";
-                          cout<< TAB<< " =================================\n";
-                          cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-                          cout<< TAB<< " =================================\n";
+                          footer();
                           exit(0);
                       }
                       cout<< "\nModulus of "<< a<< " and "<< b<< " is = "<< a%b<< endl;
                       break;
             default:  cout<< "\nUh-huh! You haven't entered the right option, have you?\n\nExiting\n!";
-                      cout<< TAB<< " =================================\n";
-                      cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-                      cout<< TAB<< " =================================\n";
+                      footer();
                       exit(0);
 
             }
@@ -651,7 +641,7 @@ class calculator{
                if(b==0)
                {
                    cout<< "\nYou can't divide "<< a<< " by 0!\n";
-                   cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
+                   footer();
                    exit(0);
                }
                result = a/b;
@@ -661,7 +651,7 @@ class calculator{
                if(b==0)
                {
                    cout<< "\nYou can't divde "<< b<< " by 0!\n";
-                   cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
+                   footer();
                    exit(0);
                }
                result = a%b;
@@ -717,9 +707,7 @@ int calc_class()
                       c.output();
                       break;
             default:  cout<< "Exiting!\n";
-                      cout<< TAB<< " =================================\n";
-                      cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-                      cout<< TAB<< " =================================\n";
+                      footer();
                       exit(0);
         }
     }
@@ -744,6 +732,7 @@ int greater_template()
     cout<< "Options\n";
     cout<< "1. to Check 2 Number(s)\n";
     cout<< "2. to Check 3 Number(s)\n";
+    cout<< "Anything else to exit!\n";
     cout<< "Your choice? ";
     cin>> choice;
     if(choice==1)
@@ -783,15 +772,11 @@ int greater_template()
         else
         {
             cout<< "\nUh-huh! You haven't entered the right option, have you?\n\nExiting!";
-            cout<< TAB<< " =================================\n";
-            cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-            cout<< TAB<< " =================================\n";
+            footer();
             exit(0);
         }
     }
-    cout<< TAB<< " =================================\n";
-    cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-    cout<< TAB<< " =================================\n";
+    footer();
     return 0;
 }
 
@@ -885,10 +870,8 @@ int main()
               break;
      case 26: greater_template();
               break;
-     default: cout<< "Exiting...\n\n";
-              cout<< TAB<< " =================================\n";
-              cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-              cout<< TAB<< " =================================\n";
+     default: cout<< "Exiting...\n";
+              footer();
               exit(0);
    }
    cout<<"\n";

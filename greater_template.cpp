@@ -23,6 +23,7 @@ int main()
     cout<< "Options\n";
     cout<< "1. to Check 2 Number(s)\n";
     cout<< "2. to Check 3 Number(s)\n";
+    cout<< "Anything else to exit!\n";
     cout<< "Your choice? ";
     cin>> choice;
     if(choice==1)
