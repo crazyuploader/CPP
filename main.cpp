@@ -781,7 +781,7 @@ int main()
    cout<< "23. for Program to Displaying Entered Details using String\n";
    cout<< "24. for Program to Do Basic Calculations\n";
    cout<< "25. for Program to Do Basic Calculations using Class and object\n";
-   cout<< "26. for Program to Show Greatest Number from 2 Number(s)\n";
+   cout<< "26. for Program to Show Greater Number using Templates\n";
    cout<< "Anything else to exit!\n";
    cout<< "\nchoice: ";
    cin>> choice;
