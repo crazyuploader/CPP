@@ -1,6 +1,5 @@
 #include<iostream>
 #include<cstdlib>
-#include"footer.h"
 using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
