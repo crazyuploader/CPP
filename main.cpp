@@ -746,6 +746,7 @@ int greater_template()
     cout<< "The Larger is = "<< Large(i1,i2)<< endl;
     cout<< "The Larger is = "<< Large(f1,f2)<< endl;
     cout<< "The Larger is = "<< Large(c1,c2)<< endl;
+    return 0;
 }
 
 int main()
