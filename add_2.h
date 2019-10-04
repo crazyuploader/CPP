@@ -3,7 +3,7 @@ using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
 
-int main()
+int add_2()
 {
     int a,b;
     cout<< "///Program to Add two Number///"<<endl<<endl<<endl;

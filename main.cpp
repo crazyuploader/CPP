@@ -1,5 +1,6 @@
 #include<iostream>
 #include<cstdlib>
+#include"add_2.h"
 using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
@@ -10,18 +11,6 @@ int footer()
     cout<< TAB<< " =================================\n";
     cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
     cout<< TAB<< " =================================\n";
-    return 0;
-}
-
-int add_2()
-{
-    int a,b;
-    cout<< "///Program to Add two Number///"<<endl<<endl<<endl;
-    cout<< "Enter First Number: ";
-    cin>> a;
-    cout<< "Enter Second Number: ";
-    cin>> b;
-    cout<< "Addition of entered number is = "<< a+b;
     return 0;
 }
 
