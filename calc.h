@@ -36,7 +36,7 @@ int calc()
             case '/': if(b==0)
                       {
                           cout << "\nYou can't divide "<< a<< " by 0!";
-                          footer();
+                          cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
                           exit(0);
                       }
                       cout<< "\nDivision of "<< a<< " and "<< b<< " is = "<< a/b<< endl;
@@ -44,13 +44,13 @@ int calc()
             case '%': if(b==0)
                       {
                           cout<< "\nYou can't divide "<< a<< " by 0!";
-                          footer();
+                          cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
                           exit(0);
                       }
                       cout<< "\nModulus of "<< a<< " and "<< b<< " is = "<< a%b<< endl;
                       break;
             default:  cout<< "\nUh-huh! You haven't entered the right option, have you?\n\nExiting!";
-                      footer();
+                      cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
                       exit(0);
 
             }

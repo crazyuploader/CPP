@@ -13,5 +13,6 @@ int division_2()
     cin>> b;
     cout<< "\nQuotient  = "<< a/b<< endl;
     cout<< "\nRemainder = "<< a%b<< endl;
+    cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
     return 0;
 }

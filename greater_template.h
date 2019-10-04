@@ -64,10 +64,10 @@ int greater_template()
         else
         {
             cout<< "\nUh-huh! You haven't entered the right option, have you?\n\nExiting!";
-            footer();
+            cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
             exit(0);
         }
     }
-    footer();
+    cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
     return 0;
 }

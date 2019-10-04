@@ -14,5 +14,6 @@ int factorial()
         fac=fac*i;
     }
     cout<< "Factorial of "<< n<< " is = "<< fac;
+    cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
     return 0;
 }

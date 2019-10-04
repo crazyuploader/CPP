@@ -18,5 +18,6 @@ int base_exponent_power()
         --exponent;
     }
     cout<< "Answer = "<< result;
+    cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
     return 0;
 }
