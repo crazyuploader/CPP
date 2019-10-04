@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstdlib>
 using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
@@ -58,6 +59,13 @@ int main()
             cout<< "The Largest Floating Point is = "<< Large_3(f1,f2,f3)<< endl;
             cout<< "The Largest Character is = "<< Large_3(c1,c2,c3)<< endl;
         }
+        else
+        {
+            cout<< "\nUh-huh! You haven't entered the right option, have you?\n\nExiting!";
+            cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
+            exit(0);
+        }
     }
     cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
+    return 0;
 }
