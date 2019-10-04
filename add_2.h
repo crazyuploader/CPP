@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
-#define NEWLINE '\n'
 #define TAB '\t'
+#define NEWLINE '\n'
 
 int add_2()
 {
