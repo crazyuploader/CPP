@@ -12,6 +12,5 @@ int multiplication_2()
     cout<< "Enter Second Number: ";
     cin>> b;
     cout<< "Answer is "<< a*b;
-    cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
     return 0;
 }

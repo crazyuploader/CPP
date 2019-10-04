@@ -35,7 +35,7 @@ int ascii()
                      cout<< endl;
                      break;
             default: cout<< "Exiting...\n\n";
-                     cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
+                     footer();
                      exit(0);
         }
     }

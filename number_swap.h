@@ -50,7 +50,7 @@ int number_swap()
                      cout<< "After Swapping a is = "<< a<< " and b is = "<< b;
                      break;
             default: cout<< "Exiting...\n\n";
-                     cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
+                     footer();
                      exit(0);
         }
     }

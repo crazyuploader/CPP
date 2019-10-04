@@ -65,7 +65,7 @@ int number_conversion()
             case 2:  convertBinaryToDecimal();
                      break;
             default: cout<< "Exiting...\n\n";
-                     cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
+                     footer();
                      exit(0);
         }
     }

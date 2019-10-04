@@ -91,7 +91,7 @@ int calc_class()
                       c.output();
                       break;
             default:  cout<< "Exiting!";
-                      cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
+                      footer();
                       exit(0);
         }
     }

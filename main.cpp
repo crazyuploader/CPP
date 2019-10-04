@@ -26,18 +26,12 @@
 #include"subtract_2.h"
 #include"sum_digits.h"
 #include"table.h"
+#include"footer.h"
 using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
 
-int footer()
-{
-    cout<< "\n";
-    cout<< TAB<< " =================================\n";
-    cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
-    cout<< TAB<< " =================================\n";
-    return 0;
-}
+//Main Program starts here ~
 
 int main()
 {

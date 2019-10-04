@@ -35,6 +35,5 @@ int greater_3()
             cout << "Greatest Number is = " << c;
         }
     }
-    cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
     return 0;
 }

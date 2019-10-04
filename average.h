@@ -17,6 +17,5 @@ int average()
             avg = avg + a[i];
         }
     cout<< "Average of "<< n<< " Number(s) is = "<< avg/n;
-    cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
     return 0;
 }
