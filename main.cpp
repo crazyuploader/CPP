@@ -26,7 +26,6 @@
 #include"subtract_2.h"
 #include"sum_digits.h"
 #include"table.h"
-
 using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
