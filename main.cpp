@@ -783,11 +783,15 @@ int greater_template()
         else
         {
             cout<< "\nUh-huh! You haven't entered the right option, have you?\n\nExiting!";
-            cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
+            cout<< TAB<< " =================================\n";
+            cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
+            cout<< TAB<< " =================================\n";
             exit(0);
         }
     }
-    cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
+    cout<< TAB<< " =================================\n";
+    cout<< TAB<< "||Created by Jugal Kishore -- 2019||"<< NEWLINE;
+    cout<< TAB<< " =================================\n";
     return 0;
 }
 
