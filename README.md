@@ -82,3 +82,6 @@ Just a collection of my C++ Programs
 <b>calc_class.cpp</b>
 * A simple program using `class` and `object` to do basic mathematical operations.
 * Accepts Addition, Subtraction, Multiplication, Division.
+
+<b>greater_template.cpp</b>
+* Program to Show Greatest Number from 2 Number(s)
