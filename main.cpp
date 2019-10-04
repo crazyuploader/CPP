@@ -725,6 +725,29 @@ int calc_class()
     }
 }
 
+template<class T>
+T Large(T x, T y)
+{
+    return (x>y)?x:y;
+}
+
+int greater_template()
+{
+    int i1,i2;
+    float f1,f2;
+    char c1,c2;
+    cout<< "///Program to Display Greater Number using Template///"<< endl<< endl<< endl;
+    cout<< "Enter Integers: ";
+    cin>> i1>> i2;
+    cout<< "Enter Floating Point: ";
+    cin>> f1>> f2;
+    cout<< "Enter Character: ";
+    cin>> c1>> c2;
+    cout<< Large(i1,i2)<< " is Larger."<< endl;
+    cout<< Large(f1,f2)<< " is Larger."<< endl;
+    cout<< Large(c1,c2)<< " is Larger."<< endl;
+}
+
 int main()
 {
  int choice;
@@ -757,6 +780,7 @@ int main()
    cout<< "23. for Program to Displaying Entered Details using String\n";
    cout<< "24. for Program to Do Basic Calculations\n";
    cout<< "25. for Program to Do Basic Calculations using Class and object\n";
+   cout<< "26. for Program to Show Greatest Number from 2 Number(s)\n";
    cout<< "Anything else to exit!\n";
    cout<< "\nchoice: ";
    cin>> choice;
@@ -811,6 +835,8 @@ int main()
      case 24: calc();
               break;
      case 25: calc_class();
+              break;
+     case 26: greater_template();
               break;
      default: cout<< "Exiting...\n\n";
               cout<< TAB<< " =================================\n";
