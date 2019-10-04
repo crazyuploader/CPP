@@ -21,8 +21,8 @@ int main()
     cin>> f1>> f2;
     cout<< "Enter Character: ";
     cin>> c1>> c2;
-    cout<< "The Larger Number is = "<< Large(i1,i2)<< endl;
-    cout<< "The Larger Number is = "<< Large(f1,f2)<< endl;
-    cout<< "The Larger Number is = "<< Large(c1,c2)<< endl;
+    cout<< "The Larger is = "<< Large(i1,i2)<< endl;
+    cout<< "The Larger is = "<< Large(f1,f2)<< endl;
+    cout<< "The Larger is = "<< Large(c1,c2)<< endl;
     cout<< NEWLINE<< NEWLINE<< "Created by Jugal Kishore -- 2019"<< NEWLINE;
 }

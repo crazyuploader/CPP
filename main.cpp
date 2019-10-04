@@ -743,9 +743,9 @@ int greater_template()
     cin>> f1>> f2;
     cout<< "Enter Character: ";
     cin>> c1>> c2;
-    cout<< Large(i1,i2)<< " is Larger."<< endl;
-    cout<< Large(f1,f2)<< " is Larger."<< endl;
-    cout<< Large(c1,c2)<< " is Larger."<< endl;
+    cout<< "The Larger is = "<< Large(i1,i2)<< endl;
+    cout<< "The Larger is = "<< Large(f1,f2)<< endl;
+    cout<< "The Larger is = "<< Large(c1,c2)<< endl;
 }
 
 int main()
