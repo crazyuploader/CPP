@@ -22,7 +22,7 @@
 #include"prime.h"
 #include"reverse.h"
 #include"sizeof_data_types.h"
-#include"some_info"
+#include"some_info.h"
 #include"subtract_2.h"
 #include"sum_digits.h"
 #include"table.h"

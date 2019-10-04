@@ -3,7 +3,7 @@ using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
 
-int main()
+int greater_2()
 {
     int a, b;
     cout<< "///Program to Display Greater Number///"<< endl<< endl<< endl;

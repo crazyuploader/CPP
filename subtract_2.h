@@ -3,7 +3,7 @@ using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
 
-int main()
+int subtract_2()
 {
     int a,b;
     cout<< "///Program to Subtract two Number(s)///"<<endl<<endl<<endl;
