@@ -1,8 +1,20 @@
 #include<iostream>
 #include<cstdlib>
+#include<ctime>
 using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
+
+int build_time()
+{
+
+	time_t tt;
+	struct tm * ti;
+	time (&tt);
+	ti = localtime(&tt);
+	cout << "Current Day, Date and Time is = "<< asctime(ti);
+	return 0;
+}
 
 int footer()
 {
