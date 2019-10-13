@@ -123,7 +123,6 @@ int main()
               break;
      default: cout<< "Exiting...\n";
               footer();
-              name();
               exit(0);
    }
    cout<<"\n";
