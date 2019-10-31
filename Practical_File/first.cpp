@@ -15,24 +15,25 @@ int main()
     //Initialization of Array
     int *array=NULL;
     int i,n;
-    cout<< "\n\nEnter no. of elements in Array: ";
+    cout<< "\n\nEnter no. of element(s) in Array: ";
     cin>> n;
-    //Allocating elements of size 'int'
+    //Allocating element(s) of size 'int'
     array=new int[n];
     cout<< "Enter Array:\n";
-    //Entering Elements
+    //Entering Element(s)
     for(i=0;i<n;i++)
     {
         cin>> array[i];
     }
     cout<< "Entered Array is:";
-    //Displaying Elements
+    //Displaying Element(s)
     for(i=0;i<n;i++)
     {
         cout<< " "<<array[i];
     }
-    //Freeing memory
+    //Freeing memory using 'delete' operator
     delete ptr;
     delete array;
+    cout<< "\n\nCreated by Jugal Kishore -- 2019\n";
     return 0;
 }
