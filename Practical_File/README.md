@@ -6,3 +6,6 @@ Practical File for C++
 <b>[`first.cpp`](/Practical_File/first.cpp)</b>
 * Allocating Memory for a pointer and Array using `new` operator.
 * Deallocating Memory using `delete` operator. 
+
+<b>[`second.cpp`](/Practical_File/second.cpp)</b>
+* Creating a Class and accessing its members using an object
