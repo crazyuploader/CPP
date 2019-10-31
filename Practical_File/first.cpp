@@ -1,5 +1,5 @@
 //Program to demonstrate the use of
-//new and delete operator
+//new and delete operator.
 #include<iostream>
 using namespace std;
 
