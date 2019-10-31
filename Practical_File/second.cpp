@@ -22,23 +22,19 @@ class info
             cout<< "Enter Course: ";
             cin>> course;
         }
-        void display()
-        {
-            cout<< "\n--- Entered Information ---\n\n";
-            cout<< "First Name: "<< f_name<< endl;
-            cout<< "Last Name: "<< l_name<< endl;
-            cout<< "Roll Number: "<< roll<< endl;
-            cout<< "Course: "<< course<< endl;
-        }
-
 };
 
 int main()
 {
-    //Declaring an object of class 'info'
+    //Declaring an Object of Class 'info'
     info a;
     a.input();
-    a.display();
+    //Accessing members using Object
+    cout<< "\n--- Entered Information ---\n\n";
+    cout<< "First Name: "<< a.f_name<< endl;
+    cout<< "Last Name: "<< a.l_name<< endl;
+    cout<< "Roll Number: "<< a.roll<< endl;
+    cout<< "Course: "<< a.course<< endl;
     cout<< "\nCreated by Jugal Kishore -- 2019\n";
     return 0;
 }
