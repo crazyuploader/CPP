@@ -8,4 +8,4 @@ Practical File for C++
 * Deallocating Memory using `delete` operator.
 
 <b>[`second.cpp`](/Practical_File/second.cpp)</b>
-* Creating a `Class` and accessing its members using an `Object`.
+* Creating a **Class** and accessing its members using an **Object**.
