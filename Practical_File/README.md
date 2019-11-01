@@ -11,4 +11,5 @@ Practical File for C++
 * Creating a **Class** and accessing its members using an **Object**.
 
 <b>[`third.cpp`](/Practical_File/third.cpp)</b>
-* creating two different types of **Constructors**.
+* Creating two different types of **Constructors**.
+* Creating a **Destructor**.
