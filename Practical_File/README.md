@@ -13,3 +13,6 @@ Practical File for C++
 <b>[`third.cpp`](/Practical_File/third.cpp)</b>
 * Creating two different types of **Constructors**.
 * Creating a **Destructor**.
+
+<b>[`fourth.cpp`](/Practical_File/fourth.cpp)</b>
+* Creating a **Copy Constructor**.
