@@ -25,7 +25,9 @@ class Book
 
 int main()
 {
+    //Default Constructor
     Book book;
+    cout<< "Normal Constructor"<< endl<< endl;
     cout<< "Book Title: "<< book.title<< endl;
     cout<< "Book Author: "<< book.author<< endl;
     cout<< "Book Pages: "<< book.pages<< endl<< endl;
@@ -35,5 +37,6 @@ int main()
     cout<< "Book Title: "<< bookcopy.title<< endl;
     cout<< "Book Author: "<< bookcopy.author<< endl;
     cout<< "Book Pages: "<< bookcopy.pages<< endl;
-    cout<< "\nCreated by Jugal Kishore -- 2019\n\n";
+    cout<< "\nCreated by Jugal Kishore -- 2019\n";
+    return 0;
 }
