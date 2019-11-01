@@ -9,7 +9,7 @@ class info
     //Access specifier
     public:
         //Data Members
-        string f_name,l_name,roll,course;
+        string f_name, l_name, roll, course;
         //Member Function
         void input()
         {
