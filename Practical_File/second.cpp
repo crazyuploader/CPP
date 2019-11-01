@@ -35,6 +35,6 @@ int main()
     cout<< "Last Name: "<< a.l_name<< endl;
     cout<< "Roll Number: "<< a.roll<< endl;
     cout<< "Course: "<< a.course<< endl;
-    cout<< "\nCreated by Jugal Kishore -- 2019\n";
+    cout<< "\nCreated by Jugal Kishore -- 2019\n\n";
     return 0;
 }

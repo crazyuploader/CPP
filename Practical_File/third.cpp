@@ -21,6 +21,10 @@ class Book
             author = aAuthor;
             pages = aPages;
         }
+        ~Book()
+        {
+            cout<< "Destructor called for Book "<< title<< " called"<< endl;
+        }
 };
 
 int main()
