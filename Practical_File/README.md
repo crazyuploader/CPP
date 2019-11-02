@@ -22,3 +22,5 @@ Practical File for C++
 
 <b>[`sixth.cpp`](/Practical_File/sixth.cpp)</b>
 * Creating two **Access Specifiers**: `public` and `private`.
+
+<b>[`seventh.cpp`](/Practical_File/seventh)</b>
