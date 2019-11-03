@@ -1,5 +1,4 @@
-//Program for to show various types of
-//Inheritance
+//Program to show Single Inheritance
 #include<iostream>
 using namespace std;
 
