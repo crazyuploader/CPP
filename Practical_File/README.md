@@ -30,3 +30,4 @@ My first practical file for C++ which also can be run online [HERE](https://prac
 * [`seventh_2.cpp`](/Practical_File/seventh_2.cpp) Creating a program to show **Multiple Inheritance**.
 * [`seventh_3.cpp`](/Practical_File/seventh_3.cpp) Creating a program to show **Multilevel Inheritance**.
 * [`seventh_4.cpp`](/Practical_File/seventh_4.cpp) Creating a program to show **Hierarchical Inheritance**.
+* [`seventh_5.cpp`](/Practical_File/seventh_5.cpp) Creating a program to show **Hybrid (Virtual) Inheritance**.
