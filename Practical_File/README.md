@@ -28,4 +28,5 @@ My first practical file for C++ which also can be run online [HERE](https://prac
 <b>Inheritance</b> (Seventh) — Different types of **Inheritance**
 * [`seventh_1.cpp`](/Practical_File/seventh_1.cpp) Creating a program to show **Single Inheritance**.
 * [`seventh_2.cpp`](/Practical_File/seventh_2.cpp) Creating a program to show **Multiple Inheritance**.
-* [`seventh_3.cpp`](/Practical_File/seventh_2.cpp) Creating a program to show **Multilevel Inheritance**.
+* [`seventh_3.cpp`](/Practical_File/seventh_3.cpp) Creating a program to show **Multilevel Inheritance**.
+* [`seventh_4.cpp`](/Practical_File/seventh_4.cpp) Creating a program to show **Hierarchical Inheritance**.
