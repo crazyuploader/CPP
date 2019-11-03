@@ -23,4 +23,5 @@ Practical File for C++
 <b>[`sixth.cpp`](/Practical_File/sixth.cpp)</b>
 * Creating two **Access Specifiers**: `public` and `private`.
 
-<b>[`seventh.cpp`](/Practical_File/seventh)</b>
+<b>Inheritance</b> (Seventh) — Different types of **Inheritance**
+* [`seventh_1.cpp`](/Practical_File/seventh_1.cpp) Creating a program to show **Single Inheritance**. 
