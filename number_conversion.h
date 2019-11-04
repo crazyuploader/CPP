@@ -47,7 +47,6 @@ int convertBinaryToDecimal()
 
 int number_conversion()
 {
-    long long n;
     int choice;
     cout<< "///Program to convert Numbers///"<< endl<< endl<< endl;
     while(1)

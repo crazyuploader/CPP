@@ -6,7 +6,7 @@ using namespace std;
 
 int calc()
 {
-    int a,b,result;
+    int a,b;
     char option;
     cout<< "///A Simple Calculator///"<< endl<< endl<< endl;
     while(1)

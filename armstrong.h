@@ -5,7 +5,7 @@ using namespace std;
 
 int armstrong()
 {
-    int num,i,r,temp,sum=0;
+    int num,r,temp,sum=0;
     cout<< "///Program to Check Whether or not Entered Number is Armstrong///"<< endl<< endl<< endl;
     cout<< "Enter Number: ";
     cin>> num;
