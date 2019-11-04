@@ -25,14 +25,14 @@ My first practical file for C++ which also can be run online [HERE](https://prac
 <b>[`sixth.cpp`](/Practical_File/sixth.cpp)</b>
 * Creating two **Access Specifiers**: `public` and `private`.
 
-<b>Inheritance</b> (Seventh) — Different types of **Inheritance**
+<b>Inheritance</b> (seventh) — Different types of **Inheritance**
 * [`seventh_1.cpp`](/Practical_File/seventh_1.cpp) Creating a program to show **Single Inheritance**.
 * [`seventh_2.cpp`](/Practical_File/seventh_2.cpp) Creating a program to show **Multiple Inheritance**.
 * [`seventh_3.cpp`](/Practical_File/seventh_3.cpp) Creating a program to show **Multilevel Inheritance**.
 * [`seventh_4.cpp`](/Practical_File/seventh_4.cpp) Creating a program to show **Hierarchical Inheritance**.
 * [`seventh_5.cpp`](/Practical_File/seventh_5.cpp) Creating a program to show **Hybrid (Virtual) Inheritance**.
 
-<b>Friend Class</b> and <b>Friend Function</b> (Eighth)
+<b>Friend Class</b> and <b>Friend Function</b> (eighth)
 * [`eighth_1.cpp`](/Practical_File/eighth_1.cpp) Creating a program for **Friend Class**.
 * [`eighth_2.cpp`](/Practical_File/eighth_2.cpp) Creating a program for **Friend Function**.
 
@@ -41,3 +41,6 @@ My first practical file for C++ which also can be run online [HERE](https://prac
 
 <b>[`tenth.cpp`](/Practical_File/tenth.cpp)</b>
 * Creating a program for **Function Overloading**.
+
+<b>Template Function</b> and <b>Template Class</b> (eleventh)
+* [`eleventh_1.cpp`](/Practical_File/eleventh_1.cpp) Creating a program for **Template Function**.
