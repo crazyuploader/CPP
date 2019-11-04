@@ -1,8 +1,9 @@
-//C++ Program to show friend function and
-//friend Class
+//C++ Program to show Friend Class
 #include<iostream>
 using namespace std;
 
+//Creating a Class and declaring
+//showName Class as its friend
 class Name
 {
     private:
@@ -12,15 +13,16 @@ class Name
     {
         name= "Jugal Kishore";
     }
-    friend class showName;
+    friend class showName; //Friend Class
 };
 
+//Creating another Class
 class showName
 {
     public:
     void display(Name a)
     {
-        std::cout<< "Name: "<< a.name<< endl;
+        cout<< "Name: "<< a.name<< endl;
     }
 };
 
