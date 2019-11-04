@@ -35,3 +35,6 @@ My first practical file for C++ which also can be run online [HERE](https://prac
 <b>Friend Class</b> and <b>Friend Function</b> (Eighth)
 * [`eighth_1.cpp`](/Practical_File/eighth_1.cpp) Creating a program for **Friend Class**.
 * [`eighth_2.cpp`](/Practical_File/eighth_2.cpp) Creating a program for **Friend Function**.
+
+<b>[`ninth.cpp`](/Practical_File/ninth.cpp)</b>
+* Creating a program for **Operator Overloading**.
