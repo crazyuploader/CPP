@@ -38,3 +38,6 @@ My first practical file for C++ which also can be run online [HERE](https://prac
 
 <b>[`ninth.cpp`](/Practical_File/ninth.cpp)</b>
 * Creating a program for **Operator Overloading**.
+
+<b>[`tenth.cpp`](/Practical_File/tenth.cpp)</b>
+* Creating a program for **Function Overloading**.
