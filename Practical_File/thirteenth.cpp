@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int a, b;
-    cout<< "Enter 2 Number(s): ";
+    cout<< "Enter 2 Number(s): \n";
     cin>> a>> b;
     try
     {
@@ -31,6 +31,6 @@ int main()
     {
         cout<< "Exception: Unknown";
     }
-    cout<< "\nCreated by Jugal Kishore -- 2019\n";
+    cout<< "\n\nCreated by Jugal Kishore -- 2019\n";
     return 0;
 }
