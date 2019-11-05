@@ -1,6 +1,5 @@
 //C++ Program for Exception Handling
 #include <iostream>
-#include <conio.h>
 using namespace std;
 
 int main()
@@ -33,6 +32,5 @@ int main()
         cout<< "Exception: Unknown";
     }
     cout<< "\nCreated by Jugal Kishore -- 2019\n";
-    getch();
     return 0;
 }

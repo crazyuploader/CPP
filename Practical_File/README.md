@@ -51,3 +51,6 @@ My first Practical File for C++ which also can be run online [HERE](https://prac
 
 <b>[`thirteenth.cpp`](/Practical_File/thirteenth.cpp)</b>
 * Creating a program for **Exception Handling**.
+
+<b>[`fourteenth.cpp`](/Practical_File/fourteenth.cpp)</b>
+* Creating a program for **Namespaces**.
