@@ -48,3 +48,6 @@ My first Practical File for C++ which also can be run online [HERE](https://prac
 
 <b>[`twelfth.cpp`](/Practical_File/twelfth.cpp)</b>
 * Creating a program for **File Handling**.
+
+<b>[`thirteenth.cpp`](/Practical_File/thirteenth.cpp)</b>
+* Creating a program for **Exception Handling**.
