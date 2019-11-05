@@ -45,3 +45,6 @@ My first Practical File for C++ which also can be run online [HERE](https://prac
 <b>Template Function</b> and <b>Template Class</b> (eleventh)
 * [`eleventh_1.cpp`](/Practical_File/eleventh_1.cpp) Creating a program for **Template Function**.
 * [`eleventh_2.cpp`](/Practical_File/eleventh_2.cpp) Creating a program for **Template Class**.
+
+<b>[`twelfth.cpp`](/Practical_File/twelfth.cpp)</b>
+* Creating a program for **File Handling**.
