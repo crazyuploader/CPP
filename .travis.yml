@@ -1,7 +1,4 @@
 language: cpp
-compiler:
-    - g++
-    - clang++
 jobs:
   include:
     - stage: g++
