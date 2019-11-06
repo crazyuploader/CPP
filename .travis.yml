@@ -1,7 +1,7 @@
-language: cpp
+language: bash
 jobs:
   include:
     - stage: g++
-      script:  ./gpp.sh
+      script:  bash gpp.sh
     - stage: clang++
-      script: ./clang.sh
+      script: bash clang.sh

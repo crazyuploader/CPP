@@ -1,3 +1,4 @@
+echo ""
 echo "Compiling with Clang++"
 echo ""
 for f in $(ls *.cpp); do echo "Compiling $f"; clang++ $f; done
