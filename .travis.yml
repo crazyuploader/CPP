@@ -1,5 +1,10 @@
 language: cpp
-compiler: g++
-script:
-  - for f in $(ls *.cpp); do echo "Compiling $f"; g++ $f; done
-  - for f in $(ls Practical_File/*.cpp); do echo "Compiling $f"; g++ $f; done
+compiler:
+    - g++
+    - clang++
+jobs:
+  include:
+    - stage: g++
+      script:  ./gpp.sh
+    - stage: clang++
+      script: ./clang.sh
