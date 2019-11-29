@@ -1,7 +1,7 @@
 Just a collection of my C++ Programs
 ---
 
-[![Build Status](https://travis-ci.org/crazyuploader/CPP.svg?branch=master)](https://travis-ci.org/crazyuploader/CPP)
+[![Build Status](https://travis-ci.org/crazyuploader/CPP.svg?branch=master)](https://travis-ci.org/crazyuploader/CPP) [![Build status](https://ci.appveyor.com/api/projects/status/kqeqnrs6jcq9voi3?svg=true)](https://ci.appveyor.com/project/crazyuploader/cpp)
 
 [`Practical File`](/Practical_File) My first Practical File for C++ which also can be run online [HERE](https://practicalcpp.jugalkishore.repl.run/).
 
