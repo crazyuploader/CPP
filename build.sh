@@ -4,6 +4,9 @@ rm -r *.exe *.o *.out
 echo Done!
 sleep .5
 clear
+echo Available Files -
+for f in $(ls *.cpp); do echo $f; done
+echo
 echo Enter File Name -- Without Extension
 read fname
 if [[ -f ${fname}.cpp ]]; then
