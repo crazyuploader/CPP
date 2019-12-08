@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Compiling with G++ & Clang++
+    - name: G++ & Clang++
       run: bash build_all.sh
