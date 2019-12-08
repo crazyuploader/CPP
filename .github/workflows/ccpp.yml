@@ -1,9 +1,9 @@
-name: C++ CI With Clang++
+name: C++ CI With G++ & Clang++
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Clang++
-      run:  bash clang.sh
+    - name: G++ & Clang++
+      run: bash build_all.sh
