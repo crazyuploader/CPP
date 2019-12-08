@@ -1,0 +1,13 @@
+name: C/C++ CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: clang++
+      run: for f in $(ls *.cpp); do echo "Compiling $f"; clang++ $f; done
