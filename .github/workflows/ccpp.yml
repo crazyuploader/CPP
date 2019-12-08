@@ -1,2 +1,11 @@
-- name: CPP Evaluation
-  uses: luke142367/cpp-evaluation-action@0.0.1
+name: C++ CI With Clang++
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: clang++
+      run: for f in $(ls *.cpp); do echo "Compiling $f"; clang++ $f; done && \
+      for f in $(ls Practical_File/*.cpp); do echo "Compiling $f"; g++ $f; done && \
+      for f in $(ls Practical_File/concat/*.cpp); do echo "Compiling $f"; g++ $f; done
