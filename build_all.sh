@@ -8,7 +8,6 @@ echo ""
 for f in $(ls Practical_File/*.cpp); do echo "Compiling $f"; g++ $f; done
 echo ""
 echo ""
-echo ""
 echo "Compiling with Clang++"
 echo ""
 for f in $(ls *.cpp); do echo "Compiling $f"; clang++ $f; done
