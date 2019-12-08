@@ -6,4 +6,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Clang++
-      run: bash clang.sh
+      run: bash build_all.sh
