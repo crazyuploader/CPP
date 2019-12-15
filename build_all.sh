@@ -23,3 +23,4 @@ echo ""
 echo "Compiling Practical_File/concat/*"
 echo ""
 for f in $(ls Practical_File/concat/*.cpp); do echo "Compiling $f"; clang++ $f; done
+echo ""
