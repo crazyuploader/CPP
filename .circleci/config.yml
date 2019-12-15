@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: "ubuntu:latest"
+    steps:
+      - checkout
+      - run:
+          name: Installing G++ & Clang++
+          command: 'apt-get update && apt-get install -y g++ clang'
+      - run:
+          name: G++ & Clang++
+          command: cd CPP && bash build_all.sh
