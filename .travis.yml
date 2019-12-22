@@ -1,4 +1,4 @@
-language: cpp
-compiler: g++
+dist: bionic
+language: bash
 script:
   - bash build_all.sh
