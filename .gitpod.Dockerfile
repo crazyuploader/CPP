@@ -8,4 +8,4 @@ USER root
 # RUN sudo apt-get -q update && #     sudo apt-get install -yq bastet && #     sudo rm -rf /var/lib/apt/lists/*
 #
 # More information: https://www.gitpod.io/docs/42_config_docker/
-RUN apt-get update && apt-get upgrade && apt install clang g++
+RUN apt-get update && apt-get upgrade && apt-get -y install clang g++
