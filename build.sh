@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 echo Clearing Object Files and Executable Files
 rm -r *.exe *.o *.out
 echo Done!
