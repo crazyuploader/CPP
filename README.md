@@ -94,5 +94,5 @@ Just a collection of my C++ Programs
 <b>[`trick.cpp`](trick.cpp)</b>
 * A little math game ;p
 
-<b>[`gapful.cpp`](gapful.cpp)</b>
+<b>[`gapful.h`](gapful.h)</b>
 * Program to Display if an Entered Number is Gapful or not.

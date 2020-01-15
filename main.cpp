@@ -27,6 +27,7 @@
 #include"sum_digits.h"
 #include"table.h"
 #include"footer.h"
+#include"gapful.h"
 using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
@@ -64,6 +65,7 @@ int main()
         cout<< "24. for Program to Do Basic Calculations\n";
         cout<< "25. for Program to Do Basic Calculations using Class and object\n";
         cout<< "26. for Program to Show Greater Number using Templates\n";
+        cout<< "27. for Program to Display if Entered Number is Gapful or not\n";
         cout<< "Anything else to exit!\n";
         cout<< "\nchoice: ";
         cin>> choice;
@@ -120,6 +122,8 @@ int main()
             case 25: calc_class();
                      break;
             case 26: greater_template();
+                     break;
+            case 27: gapful();
                      break;
             default: cout<< "Exiting...\n";
                      footer();

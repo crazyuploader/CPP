@@ -3,7 +3,7 @@ using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
 
-int main()
+int gapful()
 {
     int a,b,c,d;
     cout<< "///Program for Gapful Number///"<< endl<< endl;
