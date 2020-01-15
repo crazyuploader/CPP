@@ -60,8 +60,8 @@ if [[ -f ${fname}.cpp ]]; then
         fi
     fi
 else
-    echo File Does not Exist
-    echo Exiting!!
+    echo File Does not Exist!
+    echo Exiting...
     sleep 1
     clear
     exit
