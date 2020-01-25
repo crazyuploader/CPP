@@ -18,7 +18,7 @@ if [[ -f ${fname}.cpp ]]; then
     COMPILED_PROGRAM=a.out
     if [[ $temp = "1" ]]; then
         clear
-        echo "Compiling "$fname.cpp" with Clang++"
+        echo "Compiling ""$fname.cpp"" with Clang++"
         clang++ "$fname.cpp"
         if [[ -f ${COMPILED_PROGRAM} ]]; then
             echo ""
@@ -35,7 +35,7 @@ if [[ -f ${fname}.cpp ]]; then
     else
         if [[ $temp = "2" ]]; then
             clear
-            echo "Compiling "$fname.cpp" with G++"
+            echo "Compiling ""$fname.cpp"" with G++"
             g++ "$fname.cpp"
             if [[ -f ${COMPILED_PROGRAM} ]]; then
                 echo ""
@@ -77,7 +77,7 @@ echo "'y' for yes and anything else for no"
 read -r temp
 if [[ $temp = "y" ]]; then
     clear
-    cat ${fname}.cpp
+    cat "${fname}.cpp"
     sleep 5
     echo ""
     echo "Press 'y' to Exit"
