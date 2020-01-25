@@ -78,6 +78,7 @@ read -r temp
 if [[ $temp = "y" ]]; then
     clear
     cat ${fname}.cpp
+    sleep 5
     echo ""
     echo "Press 'y' to Exit"
     read -r temp
