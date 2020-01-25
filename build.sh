@@ -7,7 +7,7 @@ sleep .5
 clear
 echo "Available Files -"
 for f in *.cpp; do echo "$f"; done
-echo
+echo ""
 echo "Enter File Name -- Without Extension"
 read -r fname
 if [[ -f ${fname}.cpp ]]; then
@@ -21,12 +21,12 @@ if [[ -f ${fname}.cpp ]]; then
         echo "Compiling "$fname.cpp" with Clang++"
         clang++ "$fname.cpp"
         if [[ -f ${COMPILED_PROGRAM} ]]; then
-            echo
+            echo ""
             echo "Build With Clang++ without any errors"
             sleep .5
             clear
         else
-            echo
+            echo ""
             echo "Check the Program Please"
             sleep 5
             clear
@@ -38,12 +38,12 @@ if [[ -f ${fname}.cpp ]]; then
             echo "Compiling "$fname.cpp" with G++"
             g++ "$fname.cpp"
             if [[ -f ${COMPILED_PROGRAM} ]]; then
-                echo
+                echo ""
                 echo "Build With G++ without any errors"
                 sleep .5
                 clear
             else
-                echo
+                echo ""
                 echo "Check the Program Please"
                 sleep 5
                 clear
@@ -70,19 +70,28 @@ echo "Running Compiled Program Now"
 sleep 1
 clear
 ./a.out
-echo
-echo "Clear Screen?"
-echo "'1' for yes and anything else for no"
+echo ""
+echo "Show Source Code?"
+echo ""
+echo "'y' for yes and anything else for no"
 read -r temp
-if [[ $temp = "1" ]]; then
+if [[ $temp = "y" ]]; then
     clear
-    echo "K Thanks, Bye!"
-    sleep 3
-    clear
-    exit
-else
-    if [[ $temp != "1" ]]; then
+    cat ${fname}.cpp
+    echo ""
+    echo "Press 'y' to Exit"
+    read -r temp
+    if [[ $temp = "y" ]]; then
+        clear
+        sleep 3
         echo "K Thanks, Bye!"
+        exit
+    fi
+else
+    if [[ $temp != "y" ]]; then
+        clear
+        echo "K Thanks, Bye!"
+        sleep 2
         exit
     fi
 fi
