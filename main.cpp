@@ -28,6 +28,7 @@
 #include"table.h"
 #include"footer.h"
 #include"gapful.h"
+#include"recursion.h"
 using namespace std;
 #define NEWLINE '\n'
 #define TAB '\t'
@@ -66,6 +67,7 @@ int main()
         cout<< "25. for Program to Do Basic Calculations using Class and object\n";
         cout<< "26. for Program to Show Greater Number using Templates\n";
         cout<< "27. for Program to Display if Entered Number is Gapful or not\n";
+        cout<< "28. for Program to Display Grand Total of 'n' Number(s) using Recursion\n";
         cout<< "Anything else to exit!\n";
         cout<< "\nchoice: ";
         cin>> choice;
@@ -124,6 +126,8 @@ int main()
             case 26: greater_template();
                      break;
             case 27: gapful();
+                     break;
+            case 28: recursion();
                      break;
             default: cout<< "Exiting...\n";
                      footer();
