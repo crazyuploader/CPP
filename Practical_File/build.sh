@@ -1,14 +1,21 @@
 #!/usr/bin/env bash
 
+# Colors
+GREEN='\033[1;32m'
+NC='\033[0m'
+YELLOW='\033[1;33m'
+MAGENTA='\033[1;35m'
+RED='\033[0;31m'
+
 echo "Clearing Object Files and Executable Files"
 rm -r '*.exe' '*.o' '*.out'
 echo "Done!"
 sleep .5
 clear
-echo "Available Files -"
+echo -e "${GREEN}" "Available Files -${NC}"
 for f in *.cpp; do echo "$f"; done
 echo ""
-echo "Enter File Name -- Without Extension"
+echo -e "Enter File Name -- ${YELLOW}Without Extension${NC}"
 read -r fname
 if [[ -f ${fname}.cpp ]]; then
     echo "What do you want to compile it with?"
@@ -27,7 +34,7 @@ if [[ -f ${fname}.cpp ]]; then
             clear
         else
             echo ""
-            echo "Check the Program Please"
+            echo -e "${RED}" "Check the Program Please"
             sleep 5
             clear
             exit
@@ -44,14 +51,14 @@ if [[ -f ${fname}.cpp ]]; then
                 clear
             else
                 echo ""
-                echo "Check the Program Please"
+                echo -e "${RED}" "Check the Program Please"
                 sleep 5
                 clear
                 exit
             fi
         else
             if [ "$temp" != "1" ] && [ "$temp" != "2" ]; then
-                echo "Wrong Compiler"
+                echo -e "${RED}" "Wrong Compiler${NC}"
                 echo "Exiting!"
                 sleep 1
                 clear
@@ -60,8 +67,9 @@ if [[ -f ${fname}.cpp ]]; then
         fi
     fi
 else
-    echo "File Does not Exist!"
+    echo -e "${RED}" "File Does not Exist!${NC}"
     echo "Exiting..."
+    echo -e "${MAGENTA}" "K Thanks, Bye!${NC}"
     sleep 1
     clear
     exit
@@ -71,7 +79,7 @@ sleep 1
 clear
 ./a.out
 echo ""
-echo "Show Source Code?"
+echo -e "${YELLOW}" "Show Source Code?${NC}"
 echo ""
 echo "'y' for yes and anything else for no"
 read -r temp
@@ -85,13 +93,13 @@ if [[ $temp = "y" ]]; then
     if [[ $temp = "y" ]]; then
         clear
         sleep 3
-        echo "K Thanks, Bye!"
+        echo -e "${MAGENTA}" "K Thanks, Bye!${NC}"
         exit
     fi
 else
     if [[ $temp != "y" ]]; then
         clear
-        echo "K Thanks, Bye!"
+        echo -e "${MAGENTA}" "K Thanks, Bye!${NC}"
         sleep 2
         exit
     fi
