@@ -84,7 +84,7 @@ Just a collection of my C++ Programs
 
 <b>[`calc_class.h`](calc_class.h)</b>
 * A simple program using `class` and `object` to do basic mathematical operations.
-* Accepts Addition, Subtraction, Multiplication, Division.
+* Accepts Addition, Subtraction, Multiplication, Division & Modulus.
 
 <b>[`greater_template.h`](greater_template.h)</b>
 * Program to Show Greatest Number.
