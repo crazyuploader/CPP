@@ -5,28 +5,38 @@ using namespace std;
 
 int main()
 {
-    int array[] = {2, 6, 1, 5, 24, 37, 25}; // An array
-    int i;
+    int number, i;
+    cout<< "///Array Program///"<< endl<< endl;
+    cout<< "Enter Number of elements you want to have: ";
+    cin>> number;
+    cout<< endl;
+    cout<< "Enter Array"<< endl<< endl;
+    int array[number]; // Array Initialization
+    for(i=0;i<number;i++)
+    {
+        cout<< "Enter "<< i<< " element: ";
+        cin>> array[i];
+    }
+    cout<< endl;
     int lowest = array[0];  // Assuming first element of the array as lowest
     int highest = array[0]; // Assuming first element of the array as highest
-    cout<< "///Array Program///"<< endl<< endl;
-    cout<< "Array -->";
-    for(i=0;i<6;i++)
+    cout<< "Array --->";
+    for(i=0;i<number;i++)
     {
         cout<< " "<< array[i];
     }
     cout<< endl<< endl;
     cout<< "Lowest element is = ";
-    for (i=1;i<6;i++)
+    for (i=1;i<number;i++)
     {
         if (lowest > array[i])
         {
             lowest = array[i];
         }
     }
-    cout<< lowest<< endl<< endl;
+    cout<< lowest<< endl;
     cout<< "Highest element is = ";
-    for (i=1;i<6;i++)
+    for (i=1;i<number;i++)
     {
         if (highest < array[i])
         {
